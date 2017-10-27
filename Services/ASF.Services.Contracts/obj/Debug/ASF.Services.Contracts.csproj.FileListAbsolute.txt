@@ -1,0 +1,20 @@
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Contracts.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Contracts.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Services\ASF.Services.Contracts\obj\Debug\ASF.Services.Contracts.pdb

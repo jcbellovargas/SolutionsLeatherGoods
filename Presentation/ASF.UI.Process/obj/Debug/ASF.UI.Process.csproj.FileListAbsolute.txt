@@ -1,0 +1,20 @@
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.UI.Process.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.UI.Process.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.csprojResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.Process\obj\Debug\ASF.UI.Process.pdb

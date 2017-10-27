@@ -1,0 +1,24 @@
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.csprojResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Http.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Http.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.Services.Http.dll.config
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.Services.Http.dll.config
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.Services.Http.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.Services.Http.dll.config
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.Services.Http.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Services.Http.dll.config
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Services.Http.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Services\ASF.Services.Http\obj\Debug\ASF.Services.Http.pdb

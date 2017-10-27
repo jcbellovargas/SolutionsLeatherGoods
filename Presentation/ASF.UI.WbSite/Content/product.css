@@ -1,0 +1,170 @@
+﻿/* 
+* Design by Robert Mayer:https://goo.gl/CJ7yC8
+*
+*
+* Chronicle Display Roman font was substituted for similar fonts from Google Fonts.
+*/
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+.yellow{
+  color: gold;
+}
+
+.product_stars {
+    margin-left: 37px;
+}
+
+.product_card {
+  height: 300px;
+  width: 350px;
+  margin: 40px 15px 10px 0;
+  border-radius: 7px 7px 7px 7px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  float: left;
+}
+
+
+.product-img {
+  float: left;
+  height: 220px;
+  width: 110px;
+  margin: 60px 0 0 5px;
+}
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+  display: block;
+  max-width:110px;
+  max-height:195px;
+  width: auto;
+  height: auto;
+  
+}
+
+.product-info {
+  float: left;
+  height: 250px;
+  width: 227px;
+  border-radius: 0 7px 10px 7px;
+  background-color: #ffffff;
+}
+
+.product-text {
+  height: 200px;
+  width: 227px;
+}
+
+.product-text h1 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 19px;
+  color: #474747;
+}
+
+.product-text h1,
+.product-price-btn p {
+  font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+  margin: 0 0 17px 38px;
+  font-size: 9px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #d2d2d2;
+  letter-spacing: 0.2em;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 38px;
+  font-family: 'Playfair Display', serif;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 9px;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
+.product-price-btn {
+  height: 33px;
+  width: 227px;
+  margin-top: 17px;
+  position: relative;
+}
+
+.product-price-btn p {
+  display: inline-block;
+  position: absolute;
+  
+  height: 50px;
+  font-family: 'Trocchi', serif;
+  margin: 0 0 0 38px;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #474747;
+}
+
+.product-price-btn span{
+  display: inline-block;
+  height: 50px;
+  font-family: 'Suranna', serif;
+  font-size: 24px;
+}
+
+.product-price-btn button {
+  float: right;
+  display: inline-block;
+  height: 36px;
+  width: 96px;
+  margin: 0 0 0 16px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #9cebd5;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-btn button:hover {
+  background-color: #79b0a1;
+}
+
+#qt{
+  color:rgb(153,153,153);
+}
+
+h1 .angle{
+    font-size:2rem;
+    position:relative;
+    top: 0.15rem;
+    margin:0 20px;
+    cursor: pointer;
+    color:rgb(216,216,216);
+    transition:all .5s;
+}
+
+h1 .fa-angle-left {
+    margin: 0 20px 0 47px;
+}
+
+h1 .angle:hover{
+      color:darkgrey;
+}
+
+h1.quantity {
+    font-size: 15px;
+    color: #474747;
+    font-family: 'Suranna', serif;
+    margin: 10px 0 0 37px;
+}

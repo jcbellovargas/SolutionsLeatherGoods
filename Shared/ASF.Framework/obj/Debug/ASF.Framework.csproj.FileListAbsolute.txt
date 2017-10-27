@@ -1,0 +1,39 @@
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\obj\Debug\ASF.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\ASF.Framework.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\ASF.Framework.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\AntiXssLibrary.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\HtmlSanitizationLibrary.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\bin\Debug\HtmlSanitizationLibrary.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\obj\Debug\ASF.Framework.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Framework\obj\Debug\ASF.Framework.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\ASF.Framework.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\ASF.Framework.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\AntiXssLibrary.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\HtmlSanitizationLibrary.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\bin\Debug\HtmlSanitizationLibrary.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\obj\Debug\ASF.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\obj\Debug\ASF.Framework.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Framework\obj\Debug\ASF.Framework.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\ASF.Framework.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\ASF.Framework.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\AntiXssLibrary.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\HtmlSanitizationLibrary.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\HtmlSanitizationLibrary.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\obj\Debug\ASF.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\obj\Debug\ASF.Framework.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Framework\obj\Debug\ASF.Framework.pdb

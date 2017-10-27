@@ -1,0 +1,383 @@
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll.config
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Entities.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Elmah.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Elmah.Mvc.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.AspNet.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.Core.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.Elmah.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.Mvc5.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Owin.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Quartz.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Cors.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\WebGrease.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Entities.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Quartz.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\Quartz.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.xml
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll.config
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\ASF.Entities.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Common.Logging.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Elmah.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Elmah.Mvc.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\EntityFramework.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Glimpse.AspNet.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Glimpse.Core.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Glimpse.Elmah.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Glimpse.Mvc5.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Owin.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Quartz.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Cors.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\WebGrease.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\ASF.Entities.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Common.Logging.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Common.Logging.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\EntityFramework.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Quartz.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\Quartz.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.xml
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Presentation\ASF.UI.WbSite\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll.config
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Entities.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Elmah.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Elmah.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.AspNet.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.Elmah.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Glimpse.Mvc5.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Quartz.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Cors.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\WebGrease.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Entities.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Quartz.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\Quartz.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll.config
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.Entities.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Common.Logging.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Elmah.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Elmah.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\EntityFramework.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Glimpse.AspNet.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Glimpse.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Glimpse.Elmah.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Glimpse.Mvc5.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Owin.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Quartz.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Cors.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\WebGrease.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.Entities.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Mvc.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Autofac.Integration.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Common.Logging.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Common.Logging.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Common.Logging.Core.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\EntityFramework.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Newtonsoft.Json.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.Core.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.Mvc.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\NWebsec.Owin.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Quartz.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Quartz.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Helpers.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Mvc.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Razor.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.xml
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.pdb

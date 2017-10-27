@@ -1,0 +1,19 @@
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.Entities.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\bin\ASF.Entities.pdb
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
+C:\Users\Navegador\Desktop\SolutionsLeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.Entities.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\bin\ASF.Entities.pdb
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Entities\obj\Debug\ASF.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
+C:\Users\Juan Cruz\Desktop\LeatherGoods-master\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.Entities.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\bin\ASF.Entities.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Entities.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Entities.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Entities\obj\Debug\ASF.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Entities\obj\Debug\ASF.Entities.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Shared\ASF.Entities\obj\Debug\ASF.Entities.pdb
