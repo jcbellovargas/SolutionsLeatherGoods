@@ -4,18 +4,18 @@
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <title>Shop Leather Goods</title>
-
     <link href="~/Content/product.css" rel="stylesheet" />
     <link href="~/Content/cart.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+
     <!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
     <!-- JS -->
     <!-- End JS -->
-
 </head>
 <body>
     <!-- Main -->
-    <div id="main">
+    <div id="container">
         <!-- Header -->
         <div id="header">
             <!-- Cart -->
@@ -25,9 +25,33 @@
                     <span class="title">Articulos: </span><span id="cart_products_amount" class="value">{{ productsAmount() }}</span>
                     <span class="title">Total: </span><span id="cart_total_price" class="value">{{ totalPrice() }}</span>
                 </div>
-                <button v-on:click="cartDetail()" type="button">Detalle</button>
+                <button v-on:click="showCartDetail()" type="button">Detalle</button>
             </div>
             <!-- End Cart -->
+            <!-- Cart Detail -->
+            <div id="cart_detail_container">
+                <div class="cart_detail">
+                    <div class="cart_title">
+                        <h4>Tu Compra</h4>
+                        <span class="arrow"></span>
+                    </div>
+                    <ul>
+                        <li v-for="cart_item in cart">
+                            <div class="cart_item_img">
+                                <img v-bind:src="cart_item.item.Image">
+                            </div>
+                            <div class="cart_item_info">
+                                <span>{{ cart_item.quantity }} <a href="javascript:void(0);">{{ cart_item.item.Title }}</a></span> <strong>{{ cart_item.item.Price }}</strong>
+                            </div>
+                        </li>
+                    </ul>
+                    <p>
+                        <span>Products: <strong>8</strong></span> <span>Total: <strong>&euro;78,40</strong></span>
+                    </p>
+                    <a class="checkout" href="javascript:void(0);">Checkout</a>
+                </div>
+            </div>
+            <!-- End Cart Detail -->
         </div>
         <!-- End Header -->
         <div class="search_bar">
@@ -69,12 +93,17 @@
             </ul>
         </div>
         <!-- End Products -->
+
     </div>
     <!-- End Main -->
-    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    
+
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
     <script src="https://unpkg.com/vue"></script>
     <script src="~/Scripts/Cart.js"></script>
     <script>
-        vueRender(@Html.Raw(@ViewBag.products));
+        vueRender(@Html.Raw(@ViewBag.products), @Html.Raw(@ViewBag.cart));
     </script>
 </body>

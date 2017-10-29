@@ -5,6 +5,9 @@ namespace ASF.UI.WbSite
     using System.Web.Mvc;
     using NWebsec.Owin;
     using Owin;
+    using System.Web.Services.Description;
+    using Models;
+    using Microsoft.AspNet.Identity.EntityFramework;
 
     public partial class Startup
     {
@@ -53,6 +56,8 @@ namespace ASF.UI.WbSite
             ConfigureContainer(app);
 
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
+
         }
+       
     }
 }

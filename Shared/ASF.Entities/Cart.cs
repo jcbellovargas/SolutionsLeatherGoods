@@ -86,6 +86,9 @@ namespace ASF.Entities
         [DisplayName("Changed By")]
         public int? ChangedBy { get; set; }
 
+        // ITEMS
+        [DataMember]
+        public List<CartItem> Items {  get; set; }
         
     }
 }

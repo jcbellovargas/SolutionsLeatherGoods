@@ -50,6 +50,22 @@ namespace ASF.Data
             return Cart;
         }
 
+        public Cart SelectByCookie(string id) {
+            const string sqlStatement = "SELECT [Id], [Cookie], [CartDate], [ItemCount], [Rowid], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy]" +
+            "FROM dbo.Cart WHERE [Cookie]=@Cookie ";
+
+            Cart Cart = null;
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@Cookie", DbType.String, id);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    if (dr.Read()) Cart = LoadCart(dr);
+                }
+            }
+
+            return Cart;
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -156,8 +172,7 @@ namespace ASF.Data
         /// <returns>Retorna un objeto Categoria.</returns>		
         private static Cart LoadCart(IDataReader dr)
         {
-            var Cart = new Cart
-            {
+            var Cart = new Cart {
                 Id = GetDataValue<int>(dr, "Id"),
                 Cookie = GetDataValue<string>(dr, "Cookie"),
                 CartDate = GetDataValue<DateTime>(dr, "CartDate"),
@@ -166,7 +181,8 @@ namespace ASF.Data
                 CreatedOn = GetDataValue<DateTime>(dr, "CreatedOn"),
                 CreatedBy = GetDataValue<int>(dr, "CreatedBy"),
                 ChangedOn = GetDataValue<DateTime>(dr, "ChangedOn"),
-                ChangedBy = GetDataValue<int>(dr, "ChangedBy")
+                ChangedBy = GetDataValue<int>(dr, "ChangedBy"),
+                Items = new List<CartItem>()
             };
             return Cart;
         }

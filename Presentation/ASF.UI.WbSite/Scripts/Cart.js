@@ -4,16 +4,24 @@ function test(value) {
     debugger;
 }
 
-function vueRender(products) {
+function vueRender(products, cart_data) {
     $.each(products, function (index, value) {
         value.quantity = 1;
     });
+
+    var cart = [];
+    $.each(cart_data, function (index, value) {
+        value = { item: { Price: value.Price, Id: value.ProductId }, quantity: value.Quantity };
+        cart.push(value);
+    });
+
     const vm = new Vue({
-        el: "#main",
+        el: "#container",
         data: {
-            cart: [],
+            cart: cart,
             products: products,
             search_pattern: '',
+            showModal: false,
         },
         methods: {
             addToCart(item, event) {
@@ -24,6 +32,7 @@ function vueRender(products) {
                 } else {
                     this.cart.push({ item: item, quantity: item_quantity });
                 }
+                $.post("/Shop/Shop/AgregarAlCarro", {ProductId: item.Id, Price: item.Price, Quantity: item.quantity});
             },
             removeFromCart(item) {
                 this.cart.splice(this.cart.indexOf(item), 1);
@@ -57,7 +66,6 @@ function vueRender(products) {
                       });
                       this.products = data;
                   }, "json");
-                debugger;
             },
             productsAmount() {
                 var amount = 0;
@@ -72,6 +80,9 @@ function vueRender(products) {
                     price += (value.item.Price * value.quantity);
                 });
                 return "$" + price;
+            },
+            showCartDetail() {
+                showModal = true;
             }
         }
     });

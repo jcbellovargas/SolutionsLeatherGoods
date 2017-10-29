@@ -285,6 +285,7 @@ C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\bin\
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll.config
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Boilerplate.Web.Mvc5.Sample.pdb
@@ -334,8 +335,8 @@ C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.Wb
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\WebGrease.dll
-C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.dll
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.Entities.pdb
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.UI.Process.pdb
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\Antlr3.Runtime.pdb
@@ -376,8 +377,7 @@ C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.Wb
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.WebPages.Razor.xml
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Web.Optimization.xml
-C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.xml
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\ASF.Services.Contracts.pdb
-C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\obj\Debug\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\bin\System.Net.Http.Formatting.xml
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Presentation\ASF.UI.WbSite\obj\Debug\Boilerplate.Web.Mvc5.Sample.pdb

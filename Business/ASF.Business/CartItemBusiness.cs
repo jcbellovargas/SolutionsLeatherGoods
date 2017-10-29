@@ -72,5 +72,10 @@ namespace ASF.Business
             var cartItemDac = new CartItemDac();
             cartItemDac.UpdateById(cartItem);
         }
+
+        public List<CartItem> GetAllByCartId(int id) {
+            var cartItemDac = new CartItemDac();
+            return cartItemDac.GetAllByCartId(id);
+        }
     }
 }

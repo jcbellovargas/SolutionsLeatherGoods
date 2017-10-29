@@ -164,22 +164,16 @@
                     <span aria-hidden="true" class="icon-bar"></span>
                     <span aria-hidden="true" class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" role="banner" href="@Url.RouteUrl(HomeControllerRoute.GetIndex)"><span class="fa fa-star"></span> @Application.Name</a>
+                <a class="navbar-brand" role="banner" href="/Shop/Shop/Index"><span class="fa fa-star"></span> @Application.Name</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="@Url.RouteUrl(HomeControllerRoute.GetAbout)"><span aria-hidden="true" class="fa fa-users"></span> About</a></li>
-                    <li><a href="@Url.RouteUrl(HomeControllerRoute.GetContact)"><span aria-hidden="true" class="fa fa-phone"></span> Contact</a></li>
-                    <li><a href="@Url.RouteUrl(HomeControllerRoute.GetFeed)"><span aria-hidden="true" class="fa fa-rss"></span> RSS</a></li>
                     <li><a href="/Category/Category/Index"><span aria-hidden="true" class="fa fa-rss"></span> Categories</a></li>
                     <li><a href="/Product/Product/Index"><span aria-hidden="true" class="fa fa-rss"></span> Products</a></li>
                     <li><a href="/Country/Country/Index"><span aria-hidden="true" class="fa fa-rss"></span> Countries</a></li>
                     <li><a href="/Dealer/Dealer/Index"><span aria-hidden="true" class="fa fa-rss"></span> Dealers</a></li>
                     <li><a href="/Client/Client/Index"><span aria-hidden="true" class="fa fa-rss"></span> Clients</a></li>
-                    <li><a href="/Cart/Cart/Index"><span aria-hidden="true" class="fa fa-rss"></span> Carts</a></li>
-                    <li><a href="/Order/Order/Index"><span aria-hidden="true" class="fa fa-rss"></span> Orders</a></li>
-                    <li><a href="/OrderDetail/OrderDetail/Index"><span aria-hidden="true" class="fa fa-rss"></span> Orders</a></li>
-                    <li><a href="/OrderNumber/OrderNumber/Index"><span aria-hidden="true" class="fa fa-rss"></span> Orders</a></li>
+
                     @if (HttpContext.Current.IsDebuggingEnabled)
                     {
                         // if <compilation debug="true"> is set in Web.config.
@@ -219,9 +213,7 @@
         </footer>
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/jqueryval")
-    @Scripts.Render("~/bundles/jqueryvalunobtrusive")
+
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/site")
     @RenderSection("scripts", required: false)

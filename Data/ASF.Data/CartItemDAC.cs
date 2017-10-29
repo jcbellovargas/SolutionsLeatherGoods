@@ -50,6 +50,26 @@ namespace ASF.Data
             return CartItem;
         }
 
+
+
+        public List<CartItem> GetAllByCartId(int id) {
+            const string sqlStatement = "SELECT [Id], [CartId],[ProductId], [Price], [Quantity], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] FROM dbo.CartItem WHERE [CartId]=@CartId";
+
+            var result = new List<CartItem>();
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@CartId", DbType.Int32, id);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    while (dr.Read()) {
+                        var CartItem = LoadCartItem(dr); // Mapper
+                        result.Add(CartItem);
+                    }
+                }
+            }
+
+            return result;
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -160,9 +180,9 @@ namespace ASF.Data
             {
                 Id = GetDataValue<int>(dr, "Id"),
                 CartId = GetDataValue<int>(dr, "CartId"),
-                ProductId = GetDataValue<int>(dr, "ProductId"),
-                Price = GetDataValue<float>(dr, "Price"),
-                Quantity = GetDataValue<int>(dr, "Quantity"),
+                ProductId = GetDataValue<Int32>(dr, "ProductId"),
+                Price = GetDataValue<double>(dr, "Price"),
+                Quantity = GetDataValue<Int32>(dr, "Quantity"),
                 CreatedOn = GetDataValue<DateTime>(dr, "CreatedOn"),
                 CreatedBy = GetDataValue<int>(dr, "CreatedBy"),
                 ChangedOn = GetDataValue<DateTime>(dr, "ChangedOn"),

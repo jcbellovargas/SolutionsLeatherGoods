@@ -45,5 +45,10 @@ namespace ASF.UI.Process
         {
             HttpGet<FindResponse<CartItem>>("rest/CartItem/Remove/" + id, new Dictionary<string, object>(), MediaType.Json);
         }
+
+        public List<CartItem> GetAllByCartId(int id) {
+            var response = HttpGet<AllResponse<CartItem>>("rest/CartItem/GetAllByCartId/" + id, new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
+        }
     }
 }

@@ -70,7 +70,25 @@ namespace ASF.Business
         public void Edit(Cart cart)
         {
             var cartDac = new CartDac();
+            var cartItemDac = new CartItemDac();
+            List<CartItem> items = cartItemDac.GetAllByCartId(cart.Id);
+            foreach (CartItem item in cart.Items) {
+                var result = items.Find(x => x.ProductId == item.ProductId);
+                if (result != null) {
+                    result.Quantity += item.Quantity;
+                    cartItemDac.UpdateById(result);
+                } else {
+                    cartItemDac.Create(item);
+                }
+                cart.ItemCount += item.Quantity;
+            }
             cartDac.UpdateById(cart);
+        }
+
+        public Cart GetByCookie(string id) {
+            var cartDac = new CartDac();
+            var result = cartDac.SelectByCookie(id);
+            return result;
         }
     }
 }

@@ -67,6 +67,24 @@ namespace ASF.Services.Http
             }
         }
 
+        [HttpGet]
+        [Route("GetByCookie/{id}")]
+        public FindResponse<Cart> Find(string id) {
+            try {
+                var response = new FindResponse<Cart>();
+                var bc = new CartBusiness();
+                response.Result = bc.GetByCookie(id);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
         [HttpPost]
         [Route("Edit")]
         public void Edit(Cart cart)

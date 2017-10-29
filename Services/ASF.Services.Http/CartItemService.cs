@@ -67,6 +67,24 @@ namespace ASF.Services.Http
             }
         }
 
+        [HttpGet]
+        [Route("GetAllByCartId/{id}")]
+        public AllResponse<CartItem> GetAllByCartId(int id) {
+            try {
+                var response = new AllResponse<CartItem>();
+                var bc = new CartItemBusiness();
+                response.Result = bc.GetAllByCartId(id);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
         [HttpPost]
         [Route("Edit")]
         public void Edit(CartItem cartItem)
