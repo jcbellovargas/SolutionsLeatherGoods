@@ -18,3 +18,8 @@ C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\bin\ASF.Business.pdb
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Business\ASF.Business\obj\Debug\ASF.Business.csprojResolveAssemblyReference.cache
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Business\ASF.Business\obj\Debug\ASF.Business.dll
 C:\Users\Juan Cruz\Documents\GitHub\LeatherGoods-dev-juan\Business\ASF.Business\obj\Debug\ASF.Business.pdb
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.Business.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.Business.pdb
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Business\ASF.Business\obj\Debug\ASF.Business.pdb

@@ -45,5 +45,11 @@ namespace ASF.UI.Process
         {
             HttpGet<FindResponse<Dealer>>("rest/Dealer/Remove/" + id, new Dictionary<string, object>(), MediaType.Json);
         }
+
+        public List<Dealer> GetByPattern(string term) {
+            var response = HttpGet<AllResponse<Dealer>>("rest/Dealer/GetByPattern/" + term , new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
+        }
+        
     }
 }

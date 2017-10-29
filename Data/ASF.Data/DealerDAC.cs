@@ -53,6 +53,25 @@ namespace ASF.Data
             return Dealer;
         }
 
+        public List<Dealer> GetByPattern(string term) {
+            const string sqlStatement = "SELECT [Id], [FirstName], [LastName], [CategoryId], [CountryId], [Description], [TotalProducts], [Rowid], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] FROM dbo.Dealer " +
+                "WHERE [LastName] LIKE @Term";
+
+            var result = new List<Dealer>();
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@Term", DbType.String, term);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    while (dr.Read()) {
+                        var Dealer = LoadDealer(dr); // Mapper
+                        result.Add(Dealer);
+                    }
+                }
+            }
+
+            return result;
+        }
+
         /// <summary>
         /// 
         /// </summary>

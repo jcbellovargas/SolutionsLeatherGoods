@@ -67,6 +67,24 @@ namespace ASF.Services.Http
             }
         }
 
+        [HttpGet]
+        [Route("GetByPattern/{term}")]
+        public AllResponse<Dealer> GetByPattern(string term) {
+            try {
+                var response = new AllResponse<Dealer>();
+                var bc = new DealerBusiness();
+                response.Result = bc.GetByPattern(term);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
         [HttpPost]
         [Route("Edit")]
         public void Edit(Dealer dealer)

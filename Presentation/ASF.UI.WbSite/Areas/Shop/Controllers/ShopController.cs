@@ -20,18 +20,23 @@ namespace ASF.UI.WbSite.Areas.Shop.Controllers
         {
             var products = product_process.SelectList();
             ViewBag.products = JsonConvert.SerializeObject(products);
-            var session_id = HttpContext.Session.SessionID;
-            if (Request.Cookies["session"] == null) {
+            var current_session = Request.Cookies["session"];
+            if (current_session == null) {
                 var cookie = new HttpCookie("session");
-                cookie.Values["token"] = session_id;
+                cookie.Values["token"] = HttpContext.Session.SessionID;
+                cookie.Expires = DateTime.Now.AddDays(3);
                 Response.Cookies.Add(cookie);
                 var current_cart = NuevoCart();
                 cart_process.Add(current_cart);
             } else {
-                var current_cart = cart_process.SelectByCookie(Request.Cookies["session"]["token"].ToString());
-                var current_cart_items = cart_item_process.GetAllByCartId(current_cart.Id);
-                ViewBag.cart = JsonConvert.SerializeObject(current_cart_items);
-                var a = 3;
+                var current_cart = cart_process.SelectByCookie(current_session["token"].ToString());
+                if (current_cart != null) {
+                    var current_cart_items = cart_item_process.GetAllByCartId(current_cart.Id);
+                    ViewBag.cart = JsonConvert.SerializeObject(current_cart_items);
+                } else {
+                    current_cart = NuevoCart();
+                    cart_process.Add(current_cart);
+                }
             }
             return View();
         }
@@ -52,7 +57,7 @@ namespace ASF.UI.WbSite.Areas.Shop.Controllers
             cart_item.CartId = current_cart.Id;
             current_cart.Items.Add(cart_item);
             cart_process.Edit(current_cart);
-            return View();
+            return null;
         }
 
         private Entities.Cart NuevoCart() {

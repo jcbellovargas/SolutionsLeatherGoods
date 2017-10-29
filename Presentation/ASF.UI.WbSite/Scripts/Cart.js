@@ -10,7 +10,7 @@ function vueRender(products, cart_data) {
     });
 
     var cart = [];
-    $.each(cart_data, function (index, value) {
+    if (cart_data != null) $.each(cart_data, function (index, value) {
         value = { item: { Price: value.Price, Id: value.ProductId }, quantity: value.Quantity };
         cart.push(value);
     });

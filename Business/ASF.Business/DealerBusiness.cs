@@ -72,5 +72,10 @@ namespace ASF.Business
             var dealerDac = new DealerDac();
             dealerDac.UpdateById(dealer);
         }
+
+        public List<Dealer> GetByPattern(string term) {
+            var dealerDac = new DealerDac();
+            return dealerDac.GetByPattern(term + "%");
+        }
     }
 }
