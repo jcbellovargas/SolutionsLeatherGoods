@@ -46,9 +46,12 @@ namespace ASF.UI.Process
             HttpPost<Cart>("rest/Cart/Edit", c, MediaType.Json);
         }
 
+        
+
         public void Delete(int id)
         {
             HttpGet<FindResponse<Cart>>("rest/Cart/Remove/" + id, new Dictionary<string, object>(), MediaType.Json);
         }
+        
     }
 }

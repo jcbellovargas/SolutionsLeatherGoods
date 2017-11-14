@@ -75,13 +75,24 @@ namespace ASF.Business
             foreach (CartItem item in cart.Items) {
                 var result = items.Find(x => x.ProductId == item.ProductId);
                 if (result != null) {
-                    result.Quantity += item.Quantity;
-                    cartItemDac.UpdateById(result);
+                    if (item.Quantity > 0) {
+                        result.Quantity += item.Quantity;
+                        cartItemDac.UpdateById(result);
+                        cart.ItemCount += item.Quantity;
+                    } else if (item.Quantity < 0) {
+                        result.Quantity += item.Quantity;
+                        cartItemDac.UpdateById(result);
+                        cart.ItemCount += item.Quantity;
+                    } else {
+                        cart.ItemCount -= result.Quantity;
+                        cartItemDac.DeleteById(result.Id);
+                    }
                 } else {
                     cartItemDac.Create(item);
+                    cart.ItemCount += item.Quantity;
                 }
-                cart.ItemCount += item.Quantity;
             }
+            cart.ChangedOn = DateTime.Now;
             cartDac.UpdateById(cart);
         }
 

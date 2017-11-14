@@ -85,6 +85,24 @@ namespace ASF.Services.Http
             }
         }
 
+        [HttpGet]
+        [Route("GetByCartId/{id}")]
+        public AllResponse<Product> GetByCartId(int id) {
+            try {
+                var response = new AllResponse<Product>();
+                var bc = new ProductBusiness();
+                response.Result = bc.GetByCartId(id);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
         [HttpPost]
         [Route("Edit")]
         public void Edit(Product product)

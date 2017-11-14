@@ -1,0 +1,5 @@
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.UI.Process.pdb
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.Process\obj\Release\ASF.UI.Process.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.Process\obj\Release\ASF.UI.Process.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.Process\obj\Release\ASF.UI.Process.pdb

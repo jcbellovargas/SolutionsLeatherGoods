@@ -7,17 +7,14 @@ using System.Web;
 using System.Web.Mvc;
 using ASF.Entities;
 
-namespace ASF.UI.WbSite.Areas.Shop.Controllers
-{
+namespace ASF.UI.WbSite.Areas.Shop.Controllers {
     [Authorize]
-    public class ShopController : Controller
-    {
+    public class ShopController : Controller {
         private ProductProcess product_process = new ProductProcess();
         private CartProcess cart_process = new CartProcess();
         private CartItemProcess cart_item_process = new CartItemProcess();
         // GET: Shop/Shop
-        public ActionResult Index()
-        {
+        public ActionResult Index() {
             var products = product_process.SelectList();
             ViewBag.products = JsonConvert.SerializeObject(products);
             var current_session = Request.Cookies["session"];
@@ -58,6 +55,41 @@ namespace ASF.UI.WbSite.Areas.Shop.Controllers
             current_cart.Items.Add(cart_item);
             cart_process.Edit(current_cart);
             return null;
+        }
+
+        [HttpPost]
+        public ActionResult RemoverDelCarro() {
+            Entities.Cart current_cart = cart_process.SelectByCookie(Request.Cookies["session"]["token"].ToString());
+            var cart_item = NuevoCartItem();
+            cart_item.ProductId = Int32.Parse(Request.Form["ProductId"]);
+            cart_item.Quantity = 0; // quantity = 0 para que sea eliminado
+            current_cart.Items.Add(cart_item);
+            cart_process.Edit(current_cart);
+            return null;
+        }
+
+        [HttpPost]
+        public ActionResult CambiarCantidad() {
+            Entities.Cart current_cart = cart_process.SelectByCookie(Request.Cookies["session"]["token"].ToString());
+            var cart_item = NuevoCartItem();
+            cart_item.ProductId = Int32.Parse(Request.Form["ProductId"]);
+            cart_item.Quantity = Int32.Parse(Request.Form["Quantity"]);
+            current_cart.Items.Add(cart_item);
+            cart_process.Edit(current_cart);
+            return null;
+        }
+
+        [HttpGet]
+        public ActionResult Checkout() {
+            var current_session = Request.Cookies["session"];
+            var current_cart = cart_process.SelectByCookie(current_session["token"].ToString());
+            if (current_cart != null) {
+                var current_cart_items = cart_item_process.GetAllByCartId(current_cart.Id);
+                ViewBag.cart_items = JsonConvert.SerializeObject(current_cart_items);
+            }
+            var products = product_process.GetByCartId(current_cart.Id);
+            ViewBag.cart_products = JsonConvert.SerializeObject(products);
+            return View();
         }
 
         private Entities.Cart NuevoCart() {

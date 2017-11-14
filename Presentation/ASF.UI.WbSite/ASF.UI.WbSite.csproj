@@ -555,16 +555,19 @@
     <Content Include="Areas\Shop\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Shop\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Shop\Views\Shop\Index.cshtml" />
+    <Content Include="Areas\Shop\Views\Shop\Checkout.cshtml" />
     <None Include="job_scheduling_data_2_0.xsd">
       <SubType>Designer</SubType>
     </None>
     <None Include="NWebsecConfig\HttpHeaderSecurityModuleConfig.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Properties\PublishProfiles\test.pubxml" />
     <None Include="ReadMe.html" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Cart.js" />
     <None Include="Scripts\jquery-1.12.4.intellisense.js" />
+    <Content Include="Scripts\Checkout.js" />
     <Content Include="Scripts\jquery-1.12.4.js" />
     <Content Include="Scripts\jquery-1.12.4.min.js" />
     <Content Include="Scripts\jquery-1.12.4.min.map" />

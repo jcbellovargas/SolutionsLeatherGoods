@@ -54,6 +54,25 @@ namespace ASF.Data
             return Product;
         }
 
+        public List<Product> GetByCartId(int id) {
+            const string sqlStatement = "SELECT p.Id, p.Title, p.Description, p.DealerId, p.Image, p.Price, p.QuantitySold, p.AvgStars, p.Rowid, p.CreatedOn, p.CreatedBy, p.ChangedOn, p.ChangedBy " +
+            "FROM dbo.Product p INNER JOIN dbo.CartItem c ON (c.ProductId = p.Id) WHERE c.CartId = @Id ";
+
+            var result = new List<Product>();
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@Id", DbType.Int16, id);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    while (dr.Read()) {
+                        var Product = LoadProduct(dr); // Mapper
+                        result.Add(Product);
+                    }
+                }
+            }
+
+            return result;
+        }
+
         /// <summary>
         /// 
         /// </summary>

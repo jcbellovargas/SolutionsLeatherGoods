@@ -79,5 +79,10 @@ namespace ASF.Business
             var productDac = new ProductDac();
             productDac.UpdateById(product);
         }
+
+        public List<Product> GetByCartId(int id) {
+            var productDac = new ProductDac();
+            return productDac.GetByCartId(id);
+        }
     }
 }
