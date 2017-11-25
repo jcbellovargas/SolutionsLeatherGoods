@@ -56,7 +56,7 @@ namespace ASF.UI.WbSite.Controllers
 
         #endregion
 
-        [Route("", Name = HomeControllerRoute.GetIndex)]
+        [Route("home", Name = HomeControllerRoute.GetIndex)]
         public ActionResult Index()
         {
             // ***** sender email credentials (gamil) *****/
@@ -67,8 +67,8 @@ namespace ASF.UI.WbSite.Controllers
             //    Destination = "user@emaill"
             //};
             //this.emailService.SendAsync(msg);
-
-            return this.View(HomeControllerAction.Index);
+            return RedirectToAction("Index", "Shop");
+            //return this.View(HomeControllerAction.Index);
         }
 
         [Route("about", Name = HomeControllerRoute.GetAbout)]

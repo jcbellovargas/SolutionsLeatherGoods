@@ -37,9 +37,14 @@
             // https://github.com/alexbeletsky/elmah-mvc/issues/60
             // https://github.com/ASP-NET-Core-Boilerplate/Templates/issues/8
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Shop", action = "Index", id = UrlParameter.Optional }).DataTokens = new RouteValueDictionary(new { area = "Shop" }); ;
+                    "Default", // Route name
+                    "{controller}/{action}/{id}", // URL with parameters*
+                    new {
+                        controller = "Shop",
+                        action = "Index",
+                        id = UrlParameter.Optional
+                    }
+            );
         }
     }
 }

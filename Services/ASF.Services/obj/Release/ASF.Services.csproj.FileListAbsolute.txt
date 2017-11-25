@@ -1,0 +1,5 @@
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.Services.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.Services.pdb
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Services\ASF.Services\obj\Release\ASF.Services.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Services\ASF.Services\obj\Release\ASF.Services.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Services\ASF.Services\obj\Release\ASF.Services.pdb

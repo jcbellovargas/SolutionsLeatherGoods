@@ -1,0 +1,6 @@
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.Services.Http.dll.config
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\bin\ASF.Services.Http.pdb
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Release\ASF.Services.Http.csprojResolveAssemblyReference.cache
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Release\ASF.Services.Http.dll
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Services\ASF.Services.Http\obj\Release\ASF.Services.Http.pdb

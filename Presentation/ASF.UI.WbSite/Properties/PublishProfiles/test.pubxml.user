@@ -7,7 +7,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword />
-    <_PublishTargetUrl>C:\Users\Juan Cruz\Desktop\deploy</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\Juan Cruz\Desktop\deploy mcga\deploy web</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="Areas/Cart/Views/Cart/Create.cshtml">
@@ -281,7 +281,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/16/2017 21:46:00</publishTime>
     </File>
     <File Include="bin/Boilerplate.Web.Mvc5.Sample.dll">
-      <publishTime>11/13/2017 20:38:25</publishTime>
+      <publishTime>11/13/2017 21:47:53</publishTime>
     </File>
     <File Include="bin/Boilerplate.Web.Mvc5.Sample.pdb">
       <publishTime>11/13/2017 20:25:32</publishTime>
@@ -1271,7 +1271,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/22/2017 16:13:21</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/13/2017 20:41:09</publishTime>
+      <publishTime>11/13/2017 21:48:38</publishTime>
     </File>
   </ItemGroup>
 </Project>

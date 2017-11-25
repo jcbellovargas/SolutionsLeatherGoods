@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Cart Checkout";
+}
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Shop Leather Goods</title>
+    <link href="~/Content/product.css" rel="stylesheet" />
+    <link href="~/Content/cart.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+
+    <!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+    <!-- JS -->
+    <!-- End JS -->
+</head>
+<body>
+    <!-- Main -->
+    <div id="container">
+        <!-- End Cart -->
+        <!-- Cart Detail -->
+        <div id="cart_detail_container">
+            <div class="cart_detail">
+                <div class="cart_title">
+                    <h4>Tu Compra</h4>
+                    <span class="arrow"></span>
+                </div>
+                <ul>
+                    <li v-for="cart_item in cart">
+                        <div class="cart_item_img">
+                            <img v-bind:src="cart_item.Image">
+                        </div>
+                        <div class="cart_item_info">
+
+                            <span>
+                                <button type="submit" v-on:click="removeFromCart(cart_item.Id)">Eliminar</button>
+                                <a href="javascript:void(0);">{{ cart_item.Title }}</a>
+                                <span class="fa fa-angle-left angle" v-on:click="decreaseQuantity(cart_item)"></span><span id="product_quantity"> {{ cart_item.Quantity }}</span><span class="fa fa-angle-right angle" v-on:click="increaseQuantity(cart_item)"></span>
+                            </span>
+                            <strong>${{ cart_item.Price * cart_item.Quantity }}</strong>
+                        </div>
+                    </li>
+                </ul>
+                <div style="clear:both;"></div>
+                <p>
+                    <span class="total_price">Total: <strong>${{ totalPrice() }}</strong></span>
+                </p>
+                <button type="submit">Confirmar</button>
+            </div>
+        </div>
+        <!-- End Cart Detail -->
+    </div>
+    <!-- End Header -->
+
+
+
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://rawgit.com/TahaSh/vue-paginate/master/dist/vue-paginate.js"></script>
+    <script src="~/Scripts/Checkout.js"></script>
+    <script>
+        vueRender(@Html.Raw(@ViewBag.cart_products), @Html.Raw(@ViewBag.cart_items));
+    </script>
+</body>

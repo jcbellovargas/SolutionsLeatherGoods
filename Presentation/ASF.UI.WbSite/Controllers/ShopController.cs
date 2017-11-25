@@ -7,14 +7,15 @@ using System.Web;
 using System.Web.Mvc;
 using ASF.Entities;
 
-namespace ASF.UI.WbSite.Areas.Shop.Controllers {
-    [Authorize]
+namespace ASF.UI.WbSite.Controllers {
+    //[Authorize]
     public class ShopController : Controller {
         private ProductProcess product_process = new ProductProcess();
         private CartProcess cart_process = new CartProcess();
         private CartItemProcess cart_item_process = new CartItemProcess();
-        // GET: Shop/Shop
+        //[Route("Shop/Index/")]
         public ActionResult Index() {
+            this.User.IsInRole("Admin");
             var products = product_process.SelectList();
             ViewBag.products = JsonConvert.SerializeObject(products);
             var current_session = Request.Cookies["session"];
@@ -39,6 +40,7 @@ namespace ASF.UI.WbSite.Areas.Shop.Controllers {
         }
 
         [HttpGet]
+        [Route("Shop/Buscar")]
         public JsonResult Buscar(string pattern) {
             var products = pattern == "" ? product_process.SelectList() : product_process.GetByName(pattern);
             return Json(products, JsonRequestBehavior.AllowGet);
@@ -80,6 +82,7 @@ namespace ASF.UI.WbSite.Areas.Shop.Controllers {
         }
 
         [HttpGet]
+        [Route("Shop/Checkout/")]
         public ActionResult Checkout() {
             var current_session = Request.Cookies["session"];
             var current_cart = cart_process.SelectByCookie(current_session["token"].ToString());

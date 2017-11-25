@@ -21,16 +21,16 @@ function vueRender(cart_products, cart_items) {
                 } else {
                     this.cart.push({ item: item, quantity: item_quantity });
                 }
-                $.post("/Shop/Shop/AgregarAlCarro", { ProductId: item.Id, Price: item.Price, Quantity: item.quantity });
+                $.post("/Shop/AgregarAlCarro", { ProductId: item.Id, Price: item.Price, Quantity: item.quantity });
             },
             increaseQuantity(item) {
                 item.Quantity++;
-                $.post("/Shop/Shop/CambiarCantidad", { ProductId: item.Id, Quantity: 1 });
+                $.post("/Shop/CambiarCantidad", { ProductId: item.Id, Quantity: 1 });
             },
             decreaseQuantity(item) {
                 if (item.Quantity > 1) {
                     item.Quantity--;
-                    $.post("/Shop/Shop/CambiarCantidad", { ProductId: item.Id, Quantity: -1 });
+                    $.post("/Shop/CambiarCantidad", { ProductId: item.Id, Quantity: -1 });
                 } 
             },
             totalPrice() {
@@ -42,7 +42,7 @@ function vueRender(cart_products, cart_items) {
             },
             removeFromCart(id) {
                 this.cart.splice(this.cart.findIndex(x => x.Id == id), 1);
-                $.post("/Shop/Shop/RemoverDelCarro", { ProductId: id });
+                $.post("/Shop/RemoverDelCarro", { ProductId: id });
             }
            
         }

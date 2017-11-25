@@ -31,7 +31,7 @@ function vueRender(products, cart_data) {
                 } else {
                     this.cart.push({ item: item, quantity: item_quantity });
                 }
-                $.post("/Shop/Shop/AgregarAlCarro", {ProductId: item.Id, Price: item.Price, Quantity: item.quantity});
+                $.post("/Shop/AgregarAlCarro", {ProductId: item.Id, Price: item.Price, Quantity: item.quantity});
             },
             removeFromCart(item) {
                 this.cart.splice(this.cart.indexOf(item), 1);
@@ -58,7 +58,7 @@ function vueRender(products, cart_data) {
                 if (product.quantity > 1) product.quantity--;
             },
             searchProducts() {
-                $.get("/shop/shop/Buscar", { pattern: this.search_pattern })
+                $.get("/Shop/Buscar", { pattern: this.search_pattern })
                   .done(data => {
                       $.each(data, function (index, value) {
                           value.quantity = 1;

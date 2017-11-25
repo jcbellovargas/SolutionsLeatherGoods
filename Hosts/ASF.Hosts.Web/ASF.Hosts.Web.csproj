@@ -138,6 +138,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\test.pubxml" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>

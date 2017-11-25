@@ -261,8 +261,6 @@
     <Compile Include="Areas\Order\OrderAreaRegistration.cs" />
     <Compile Include="Areas\Product\Controllers\ProductController.cs" />
     <Compile Include="Areas\Product\ProductAreaRegistration.cs" />
-    <Compile Include="Areas\Shop\Controllers\ShopController.cs" />
-    <Compile Include="Areas\Shop\ShopAreaRegistration.cs" />
     <Compile Include="Constants\ExtensionMethods\HtmlLabelExtensions.cs" />
     <Compile Include="Constants\ExtensionMethods\TypeFactory.cs" />
     <Compile Include="Constants\ExtensionMethods\WebGridExtensions.cs" />
@@ -284,6 +282,7 @@
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -551,11 +550,6 @@
     <Content Include="Areas\CartItem\Views\CartItem\Details.cshtml" />
     <Content Include="Areas\CartItem\Views\CartItem\Edit.cshtml" />
     <Content Include="Areas\CartItem\Views\CartItem\Delete.cshtml" />
-    <Content Include="Areas\Shop\Views\web.config" />
-    <Content Include="Areas\Shop\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\Shop\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Shop\Views\Shop\Index.cshtml" />
-    <Content Include="Areas\Shop\Views\Shop\Checkout.cshtml" />
     <None Include="job_scheduling_data_2_0.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -719,6 +713,8 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\Shop\Index.cshtml" />
+    <Content Include="Views\Shop\Checkout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -732,7 +728,6 @@
     <Folder Include="Areas\OrderDetail\Models\" />
     <Folder Include="Areas\Order\Models\" />
     <Folder Include="Areas\Product\Models\" />
-    <Folder Include="Areas\Shop\Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config">
