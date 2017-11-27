@@ -1289,7 +1289,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/22/2017 16:13:21</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/27/2017 18:08:03</publishTime>
+      <publishTime>11/27/2017 18:12:34</publishTime>
     </File>
   </ItemGroup>
 </Project>
