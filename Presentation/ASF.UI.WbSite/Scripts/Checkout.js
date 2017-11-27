@@ -20,12 +20,11 @@ function vueRender(cart_products, cart_items) {
             confirm() {
                 var firstname = $("#client_firstname").val();
                 var lastname = $("#client_lastname").val();
-                var email = $("#client_email").val();
                 var city = $("#client_city").val();
                 var countryid = $("#CountryId").val()
                 $.post("/Shop/ConfirmarCompra", {
                     TotalPrice: this.totalPrice(), ItemCount: this.itemCount(), FirstName: firstname,
-                    LastName: lastname, Email: email, CountryId: countryid, City: city
+                    LastName: lastname, CountryId: countryid, City: city
                 }).done(function (data) {
                     window.location.href = data
                 });

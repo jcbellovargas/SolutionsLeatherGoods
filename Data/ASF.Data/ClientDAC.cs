@@ -89,7 +89,7 @@ namespace ASF.Data
 
         public bool Exists(Client client) {
             const string sqlStatement = "SELECT [Id], [FirstName], [LastName], [Email], [CountryId], [AspNetUsers], [City], [SignupDate], [Rowid], [OrderCount], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] " +
-            "FROM dbo.Client WHERE [AspNetUsers]=@AspNetUsers ";
+            "FROM dbo.Client WHERE [AspNetUsers]=@AspNetUsers";
 
             bool result = false;
             var db = DatabaseFactory.CreateDatabase(ConnectionName);

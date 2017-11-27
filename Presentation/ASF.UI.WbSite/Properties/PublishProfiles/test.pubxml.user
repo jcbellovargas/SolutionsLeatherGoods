@@ -245,7 +245,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/16/2017 21:46:00</publishTime>
     </File>
     <File Include="bin/ASF.Entities.dll">
-      <publishTime>11/27/2017 17:29:47</publishTime>
+      <publishTime>11/13/2017 19:43:12</publishTime>
     </File>
     <File Include="bin/ASF.Entities.pdb">
       <publishTime>11/13/2017 19:43:12</publishTime>
@@ -281,7 +281,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/16/2017 21:46:00</publishTime>
     </File>
     <File Include="bin/Boilerplate.Web.Mvc5.Sample.dll">
-      <publishTime>11/27/2017 17:33:01</publishTime>
+      <publishTime>11/27/2017 18:07:42</publishTime>
     </File>
     <File Include="bin/Boilerplate.Web.Mvc5.Sample.pdb">
       <publishTime>11/13/2017 20:25:32</publishTime>
@@ -1088,7 +1088,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/27/2017 17:12:58</publishTime>
     </File>
     <File Include="Scripts/Checkout.js">
-      <publishTime>11/27/2017 14:11:42</publishTime>
+      <publishTime>11/27/2017 18:01:37</publishTime>
     </File>
     <File Include="Scripts/Fallback/scripts.js">
       <publishTime>10/16/2017 21:46:00</publishTime>
@@ -1199,7 +1199,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/27/2017 17:25:38</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>10/16/2017 21:46:00</publishTime>
+      <publishTime>11/27/2017 18:06:48</publishTime>
     </File>
     <File Include="Views/Account/ResetPassword.cshtml">
       <publishTime>10/16/2017 21:46:00</publishTime>
@@ -1274,7 +1274,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>11/27/2017 17:31:41</publishTime>
     </File>
     <File Include="Views/Shop/Checkout.cshtml">
-      <publishTime>11/27/2017 14:11:41</publishTime>
+      <publishTime>11/27/2017 18:02:15</publishTime>
     </File>
     <File Include="Views/Shop/Confirmacion.cshtml">
       <publishTime>11/27/2017 12:21:41</publishTime>
@@ -1289,7 +1289,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/22/2017 16:13:21</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>11/27/2017 17:33:22</publishTime>
+      <publishTime>11/27/2017 18:08:03</publishTime>
     </File>
   </ItemGroup>
 </Project>

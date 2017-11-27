@@ -171,7 +171,7 @@ namespace ASF.UI.WbSite.Controllers {
         private Client NuevoCliente(NameValueCollection form) {
             Client cliente = new Client();
             cliente.AspNetUsers = User.Identity.Name;
-            cliente.Email = form["Email"];
+            cliente.Email = cliente.AspNetUsers;
             cliente.FirstName = form["FirstName"];
             cliente.LastName = form["LastName"];
             cliente.City = form["City"];
