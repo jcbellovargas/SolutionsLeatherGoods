@@ -1,0 +1,19 @@
+﻿.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: #9cebd5;
+}
+
+
+nav.navbar {
+    background-color: #9cebd5;
+    border-color: #9cebd5;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}

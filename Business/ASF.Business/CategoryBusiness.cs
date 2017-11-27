@@ -63,6 +63,11 @@ namespace ASF.Business
             return result;
         }
 
+        public List<Category> GetByPattern(string term) {
+            var dealerDac = new CategoryDac();
+            return dealerDac.GetByPattern(term + "%");
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -72,5 +77,6 @@ namespace ASF.Business
             var categoryDac = new CategoryDac();
             categoryDac.UpdateById(category);
         }
+        
     }
 }

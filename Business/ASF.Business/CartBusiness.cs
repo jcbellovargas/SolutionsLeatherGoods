@@ -36,6 +36,11 @@ namespace ASF.Business
         /// <param name="id"></param>
         public void Remove(int id)
         {
+            var cartItemDac = new CartItemDac();
+            var items = cartItemDac.GetAllByCartId(id);
+            foreach (CartItem item in items) {
+                cartItemDac.DeleteById(item.Id);
+            }
             var cartDac = new CartDac();
             cartDac.DeleteById(id);
         }

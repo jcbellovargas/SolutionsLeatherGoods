@@ -72,5 +72,11 @@ namespace ASF.Business
             var countryDac = new CountryDac();
             countryDac.UpdateById(country);
         }
+
+        public List<Country> GetByPattern(string term) {
+            var dealerDac = new CountryDac();
+            return dealerDac.GetByPattern(term + "%");
+        }
+        
     }
 }

@@ -13,7 +13,6 @@
         characters. The site name appears at the end for better SEO. *@
     <title>@ViewBag.Title - @Application.Name</title>
 
-
     @* Icons & Platform Specific Settings (See http://rehansaeed.com/internet-favicon-madness/ for detailed
         information). The order of these icons is very important. FireFox has a bug in it which can cause problems if
         the order is changed. *@
@@ -149,7 +148,8 @@
 
 
     @* You can use the head section to render additional meta tags. *@
-    @RenderSection("head", required: false)
+        @RenderSection("head", required: false)
+        
 </head>
 <body>
     @* Skip to main content link for people who use screen readers. sr-only makes this only visible to screen readers.
@@ -164,17 +164,20 @@
                     <span aria-hidden="true" class="icon-bar"></span>
                     <span aria-hidden="true" class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" role="banner" href="/Shop/Shop/Index"><span class="fa fa-shopping-cart"></span> @Application.Name</a>
+                <a class="navbar-brand" role="banner" href="/Shop/Index"><span class="fa fa-shopping-cart"></span> @Application.Name</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="/Category/Category/Index"><span aria-hidden="true" class="fa fa-rss"></span> Categories</a></li>
-                    <li><a href="/Product/Product/Index"><span aria-hidden="true" class="fa fa-rss"></span> Products</a></li>
-                    <li><a href="/Country/Country/Index"><span aria-hidden="true" class="fa fa-rss"></span> Countries</a></li>
-                    <li><a href="/Dealer/Dealer/Index"><span aria-hidden="true" class="fa fa-rss"></span> Dealers</a></li>
-                    <li><a href="/Client/Client/Index"><span aria-hidden="true" class="fa fa-rss"></span> Clients</a></li>
+                    @if (User.IsInRole("Admin")) {
+                        <li><a href="/Category/Category/Index"><span aria-hidden="true" class="fa fa-rss"></span> Categories</a></li>
+                                            <li><a href="/Product/Product/Index"><span aria-hidden="true" class="fa fa-rss"></span> Products</a></li>
+                                            <li><a href="/Country/Country/Index"><span aria-hidden="true" class="fa fa-rss"></span> Countries</a></li>
+                                            <li><a href="/Dealer/Dealer/Index"><span aria-hidden="true" class="fa fa-rss"></span> Dealers</a></li>
+                                            <li><a href="/Client/Client/Index"><span aria-hidden="true" class="fa fa-rss"></span> Clients</a></li>
+                    }
 
-                    @if (HttpContext.Current.IsDebuggingEnabled)
+
+                    @if (User.IsInRole("Admin") && HttpContext.Current.IsDebuggingEnabled)
                     {
                         // if <compilation debug="true"> is set in Web.config.
                         <li class="dropdown">

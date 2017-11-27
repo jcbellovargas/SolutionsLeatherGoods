@@ -47,6 +47,25 @@ namespace ASF.Data
             return category;
         }
 
+        public List<Category> GetByPattern(string term) {
+            const string sqlStatement = "SELECT [Id], [Name], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] FROM dbo.Category " +
+            "WHERE [Name] LIKE @Term";
+
+            var result = new List<Category>();
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@Term", DbType.String, term);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    while (dr.Read()) {
+                        var Category = LoadCategory(dr); // Mapper
+                        result.Add(Category);
+                    }
+                }
+            }
+
+            return result;
+        }
+
         /// <summary>
         /// 
         /// </summary>

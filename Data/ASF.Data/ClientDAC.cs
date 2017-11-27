@@ -55,6 +55,54 @@ namespace ASF.Data
             return Client;
         }
 
+        public Client SelectByUser(string aspNetUsers) {
+            const string sqlStatement = "SELECT [Id], [FirstName], [LastName], [Email], [CountryId], [AspNetUsers], [City], [SignupDate], [Rowid], [OrderCount], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] " +
+            "FROM dbo.Client WHERE [AspNetUsers]=@AspNetUsers ";
+
+            Client Client = null;
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@AspNetUsers", DbType.String, aspNetUsers);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    if (dr.Read()) Client = LoadClient(dr);
+                }
+            }
+
+            return Client;
+        }
+
+        public Client SelectByGuid(Guid guid) {
+            const string sqlStatement = "SELECT [Id], [FirstName], [LastName], [Email], [CountryId], [AspNetUsers], [City], [SignupDate], [Rowid], [OrderCount], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] " +
+                "FROM dbo.Client WHERE [Rowid]=@Rowid ";
+
+            Client Client = null;
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@Rowid", DbType.Guid, guid);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    if (dr.Read()) Client = LoadClient(dr);
+                }
+            }
+
+            return Client;
+        }
+
+        public bool Exists(Client client) {
+            const string sqlStatement = "SELECT [Id], [FirstName], [LastName], [Email], [CountryId], [AspNetUsers], [City], [SignupDate], [Rowid], [OrderCount], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] " +
+            "FROM dbo.Client WHERE [AspNetUsers]=@AspNetUsers ";
+
+            bool result = false;
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@AspNetUsers", DbType.String, client.AspNetUsers);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    result = dr.Read();
+                }
+            }
+
+            return result;
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -131,6 +179,22 @@ namespace ASF.Data
                 db.AddInParameter(cmd, "@Id", DbType.Int32, id);
                 using (var dr = db.ExecuteReader(cmd))
                 {
+                    if (dr.Read()) Client = LoadClient(dr);
+                }
+            }
+
+            return Client;
+        }
+
+        public Client SelectByName(string name) {
+            const string sqlStatement = "SELECT [Id], [FirstName], [LastName], [Email], [CountryId], [AspNetUsers], [City], [SignupDate], [Rowid], [OrderCount], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy] " +
+                "FROM dbo.Client WHERE concat([FirstName],[LastName])=@Name ";
+
+            Client Client = null;
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@Name", DbType.String, name);
+                using (var dr = db.ExecuteReader(cmd)) {
                     if (dr.Read()) Client = LoadClient(dr);
                 }
             }

@@ -76,5 +76,11 @@ namespace ASF.UI.WbSite.Areas.Country.Controllers
             country_process.Delete(c.Id);
             return RedirectToAction("Index");
         }
+
+        public JsonResult GetByName(string term) {
+            var country_process = new CountryProcess();
+            List<Entities.Country> dealers = country_process.GetByPattern(term);
+            return Json(dealers, JsonRequestBehavior.AllowGet);
+        }
     }
 }

@@ -1,0 +1,81 @@
+﻿
+@{
+    ViewBag.Title = "Confirmacion";
+}
+
+
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <title>Shop Leather Goods</title>
+    <link href="~/Content/product.css" rel="stylesheet" />
+    <link href="~/Content/cart.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css" />
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials.css" />
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.jssocials/1.4.0/jssocials-theme-flat.css" />
+    <!--[if lte IE 6]><link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" /><![endif]-->
+    <!-- JS -->
+    <!-- End JS -->
+</head>
+<body>
+    <!-- Main -->
+    <div id="container">
+        <!-- End Cart -->
+        <div class="confirm_msg">
+            <span class="confirmacion">Compra realizada con éxito!</span>
+            <img class="confirm_img" src="https://image.flaticon.com/icons/png/128/291/291201.png">
+        </div>
+
+        <!-- Cart Detail -->
+        <div id="confirmation_container">
+
+            <div class="cart_detail">
+                <div class="cart_title">
+                    <h4>Tu Compra</h4>
+                    <span class="arrow"></span>
+                </div>
+                <ul>
+                    <li v-for="cart_item in cart">
+                        <div class="cart_item_img">
+                            <img v-bind:src="cart_item.Image">
+                        </div>
+                        <div class="confirmation_item_info">
+
+                            <span>
+                                <span class="item_title">{{ cart_item.Title }}</span>
+                                <span id="product_quantity"> x{{ cart_item.Quantity }}</span>
+                            </span>
+                            <strong>${{ cart_item.Price * cart_item.Quantity }}</strong>
+                        </div>
+                    </li>
+                </ul>
+                <div style="clear:both;"></div>
+                <p>
+                    <span class="total_price">Total: <strong>${{ totalPrice() }}</strong></span>
+                </p>
+            </div>
+        </div>
+        <!-- End Cart Detail -->
+
+
+        <div id="share"></div>
+
+
+    </div>
+    <!-- End Main -->
+
+
+
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="~/Scripts/jssocials.js"></script>
+
+    <script src="~/Scripts/Checkout.js"></script>
+
+    <script>
+        vueRender(@Html.Raw(@ViewBag.cart_products), @Html.Raw(@ViewBag.cart_items));
+    </script>
+</body>

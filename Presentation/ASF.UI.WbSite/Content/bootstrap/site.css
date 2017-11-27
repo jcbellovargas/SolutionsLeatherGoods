@@ -4579,7 +4579,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
-  color: #9d9d9d;
+  color: white;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -4590,7 +4590,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #9d9d9d;
 }
 .navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+  color: white;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -6727,4 +6727,13 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+nav.navbar {
+    background-color: #9cebd5;
+    border-color: #9cebd5;
+}
+
+div.ui-helper-hidden-accessible{
+  display: none;
 }

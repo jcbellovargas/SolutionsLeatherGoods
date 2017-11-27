@@ -25,9 +25,9 @@ namespace ASF.UI.Process
             return response.Result;
         }
 
-        public void Add(Order c)
+        public Order Add(Order c)
         {
-            HttpPost<Order>("rest/Order/Add", c, MediaType.Json);
+            return HttpPost<Order>("rest/Order/Add", c, MediaType.Json);
         }
 
         public Order Find(int id)
@@ -44,6 +44,11 @@ namespace ASF.UI.Process
         public void Delete(int id)
         {
             HttpGet<FindResponse<Order>>("rest/Order/Remove/" + id, new Dictionary<string, object>(), MediaType.Json);
+        }
+
+        public Order FindByNumber(int orderNumber) {
+            var response = HttpGet<FindResponse<Order>>("rest/Order/FindByNumber/" + orderNumber, new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
         }
     }
 }

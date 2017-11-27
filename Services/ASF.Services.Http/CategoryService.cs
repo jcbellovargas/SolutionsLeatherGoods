@@ -112,6 +112,24 @@ namespace ASF.Services.Http
         }
 
         [HttpGet]
+        [Route("GetByPattern/{term}")]
+        public AllResponse<Category> GetByPattern(string term) {
+            try {
+                var response = new AllResponse<Category>();
+                var bc = new CategoryBusiness();
+                response.Result = bc.GetByPattern(term);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
+        [HttpGet]
         [Route("Remove/{id}")]
         public void Remove(int id)
         {

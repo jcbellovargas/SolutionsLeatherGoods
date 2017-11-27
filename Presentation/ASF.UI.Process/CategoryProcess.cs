@@ -44,5 +44,10 @@ namespace ASF.UI.Process
         {
             HttpGet<FindResponse<Category>>("rest/Category/Remove/" + id, new Dictionary<string, object>(), MediaType.Json);
         }
+
+        public List<Category> GetByPattern(string term) {
+            var response = HttpGet<AllResponse<Category>>("rest/Category/GetByPattern/" + term, new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
+        }
     }
 }

@@ -6,6 +6,10 @@ function vueRender(cart_products, cart_items) {
         value.Quantity = cart_items.find(x => x.ProductId == value.Id).Quantity;
         cart.push(value);
     });
+    
+    $("#share").jsSocials({
+        shares: ["email", "twitter", "facebook", "googleplus", "linkedin", "pinterest", "stumbleupon", "whatsapp"]
+    });
 
     const vm = new Vue({
         el: "#container",
@@ -13,15 +17,18 @@ function vueRender(cart_products, cart_items) {
             cart: cart_products,
         },
         methods: {
-            addToCart(item, event) {
-                var item_quantity = this.getItemQuantity(event);
-                var existingItem = this.cart.find(x => x.item.Id == item.Id);
-                if (existingItem != null) {
-                    this.cart[this.cart.indexOf(existingItem)].quantity += item_quantity;
-                } else {
-                    this.cart.push({ item: item, quantity: item_quantity });
-                }
-                $.post("/Shop/AgregarAlCarro", { ProductId: item.Id, Price: item.Price, Quantity: item.quantity });
+            confirm() {
+                var firstname = $("#client_firstname").val();
+                var lastname = $("#client_lastname").val();
+                var email = $("#client_email").val();
+                var city = $("#client_city").val();
+                var countryid = $("#CountryId").val()
+                $.post("/Shop/ConfirmarCompra", {
+                    TotalPrice: this.totalPrice(), ItemCount: this.itemCount(), FirstName: firstname,
+                    LastName: lastname, Email: email, CountryId: countryid, City: city
+                }).done(function (data) {
+                    window.location.href = data
+                });
             },
             increaseQuantity(item) {
                 item.Quantity++;
@@ -32,6 +39,13 @@ function vueRender(cart_products, cart_items) {
                     item.Quantity--;
                     $.post("/Shop/CambiarCantidad", { ProductId: item.Id, Quantity: -1 });
                 } 
+            },
+            itemCount() {
+                count = 0;
+                if (this.cart != null) $.each(this.cart, function (index, value) {
+                    count += value.Quantity;
+                });
+                return count;
             },
             totalPrice() {
                 price = 0.0

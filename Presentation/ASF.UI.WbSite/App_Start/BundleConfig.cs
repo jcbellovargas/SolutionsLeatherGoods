@@ -35,7 +35,9 @@
             bundles.Add(new StyleBundle(
                 "~/Content/css")
                 .Include("~/Content/bootstrap/site.css")
-                .Include("~/Content/site.css"));
+                .Include("~/Content/site.css")
+                .Include("~/Content/global.css")
+                );
 
             // Font Awesome - Icons using font (http://fortawesome.github.io/Font-Awesome/).
             bundles.Add(new StyleBundle(

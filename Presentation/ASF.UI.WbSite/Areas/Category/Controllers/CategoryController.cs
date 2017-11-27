@@ -16,8 +16,8 @@ namespace ASF.UI.WbSite.Areas.Category.Controllers
         {
             
             var category_process = new CategoryProcess();
-            //return View(category_process.SelectList());
-            return View(DataCache.Instance.CategoryAll());
+            return View(category_process.SelectList());
+            //return View(DataCache.Instance.CategoryAll());
         }
 
         public ActionResult Create()

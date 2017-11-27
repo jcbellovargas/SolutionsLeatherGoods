@@ -72,5 +72,11 @@ namespace ASF.Business
             var orderDac = new OrderDac();
             orderDac.UpdateById(order);
         }
+
+        public Order FindByNumber(int number) {
+            var orderDac = new OrderDac();
+            var result = orderDac.SelectByNumber(number);
+            return result;
+        }
     }
 }

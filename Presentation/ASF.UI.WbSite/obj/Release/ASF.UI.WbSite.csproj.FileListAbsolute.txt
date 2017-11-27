@@ -94,3 +94,4 @@ C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.Wb
 C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Release\ASF.UI.WbSite.csprojResolveAssemblyReference.cache
 C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Release\Boilerplate.Web.Mvc5.Sample.dll
 C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\obj\Release\Boilerplate.Web.Mvc5.Sample.pdb
+C:\Users\Juan Cruz\Documents\GitHub\SolutionsLeatherGoods\Presentation\ASF.UI.WbSite\bin\es\System.Net.Http.Formatting.resources.dll

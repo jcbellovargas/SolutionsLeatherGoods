@@ -30,7 +30,8 @@ namespace ASF.Services.Http
             try
             {
                 var bc = new ClientBusiness();
-                return bc.Add(client);
+                var result = bc.Add(client);
+                return result;
             }
             catch (Exception ex)
             {
@@ -103,6 +104,60 @@ namespace ASF.Services.Http
             {
                 var httpError = new HttpResponseMessage()
                 {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
+        [HttpGet]
+        [Route("FindByGuid/{guid}")]
+        public FindResponse<Client> FindByGuid(Guid guid) {
+            try {
+                var response = new FindResponse<Client>();
+                var bc = new ClientBusiness();
+                response.Result = bc.FindByGuid(guid);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
+        [HttpGet]
+        [Route("FindByName/{name}")]
+        public FindResponse<Client> FindByName(string name) {
+            try {
+                var response = new FindResponse<Client>();
+                var bc = new ClientBusiness();
+                response.Result = bc.FindByName(name);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
+                    StatusCode = (HttpStatusCode)422,
+                    ReasonPhrase = ex.Message
+                };
+
+                throw new HttpResponseException(httpError);
+            }
+        }
+
+        [HttpGet]
+        [Route("FindByUser/{name}")]
+        public FindResponse<Client> FindByUser(string name) {
+            try {
+                var response = new FindResponse<Client>();
+                var bc = new ClientBusiness();
+                response.Result = bc.FindByUser(name);
+                return response;
+            } catch (Exception ex) {
+                var httpError = new HttpResponseMessage() {
                     StatusCode = (HttpStatusCode)422,
                     ReasonPhrase = ex.Message
                 };

@@ -26,8 +26,20 @@ namespace ASF.Business
         /// <returns></returns>
         public Client Add(Client client)
         {
+            Client result = null;
             var clientDac = new ClientDac();
-            return clientDac.Create(client);
+            if (!clientDac.Exists(client)) {
+                result = clientDac.Create(client);
+            } else {
+                result = clientDac.SelectByUser(client.AspNetUsers);
+            }
+            return result;
+        }
+
+
+        public bool Exists(Client client) {
+            var clientDac = new ClientDac();
+            return clientDac.Exists(client);
         }
 
         /// <summary>
@@ -71,6 +83,21 @@ namespace ASF.Business
         {
             var clientDac = new ClientDac();
             clientDac.UpdateById(client);
+        }
+
+        public Client FindByGuid(Guid guid) {
+            var clientDac = new ClientDac();
+            return clientDac.SelectByGuid(guid);
+        }
+
+        public Client FindByName(string name) {
+            var clientDac = new ClientDac();
+            return clientDac.SelectByName(name);
+        }
+
+        public Client FindByUser(string name) {
+            var clientDac = new ClientDac();
+            return clientDac.SelectByUser(name.Replace("-","."));
         }
     }
 }

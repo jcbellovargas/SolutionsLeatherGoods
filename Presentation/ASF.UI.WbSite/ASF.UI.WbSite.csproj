@@ -324,6 +324,7 @@
     <Content Include="Content\fonts\bootstrap\glyphicons-halflings-regular.woff2" />
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\global.css" />
     <Content Include="Content\icons\android-chrome-144x144.png" />
     <Content Include="Content\icons\android-chrome-192x192.png" />
     <Content Include="Content\icons\android-chrome-36x36.png" />
@@ -656,12 +657,14 @@
     <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.2.1.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-twbsPagination.js" />
     <Content Include="Scripts\jquery-ui-1.12.1.js" />
     <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jssocials.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\Products.js" />
@@ -715,6 +718,7 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Views\Shop\Index.cshtml" />
     <Content Include="Views\Shop\Checkout.cshtml" />
+    <Content Include="Views\Shop\Confirmacion.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

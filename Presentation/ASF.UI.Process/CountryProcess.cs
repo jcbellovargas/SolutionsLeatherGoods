@@ -45,5 +45,10 @@ namespace ASF.UI.Process
         {
             HttpGet<FindResponse<Country>>("rest/Country/Remove/" + id, new Dictionary<string, object>(), MediaType.Json);
         }
+
+        public List<Country> GetByPattern(string term) {
+            var response = HttpGet<AllResponse<Country>>("rest/Country/GetByPattern/" + term, new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
+        }
     }
 }

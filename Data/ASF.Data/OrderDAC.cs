@@ -53,6 +53,22 @@ namespace ASF.Data
             return Order;
         }
 
+        public Order SelectByNumber(int number) {
+            const string sqlStatement = "SELECT [Id], [ClientId], [OrderDate], [TotalPrice], [State], [OrderNumber], [ItemCount], [Rowid], [CreatedOn], [CreatedBy], [ChangedOn], [ChangedBy]" +
+            "FROM [dbo].[Order] WHERE [OrderNumber]=@OrderNumber ";
+
+            Order Order = null;
+            var db = DatabaseFactory.CreateDatabase(ConnectionName);
+            using (var cmd = db.GetSqlStringCommand(sqlStatement)) {
+                db.AddInParameter(cmd, "@OrderNumber", DbType.Int32, number);
+                using (var dr = db.ExecuteReader(cmd)) {
+                    if (dr.Read()) Order = LoadOrder(dr);
+                }
+            }
+
+            return Order;
+        }
+
         /// <summary>
         /// 
         /// </summary>
@@ -170,7 +186,7 @@ namespace ASF.Data
                 Id = GetDataValue<int>(dr, "Id"),
                 ClientId = GetDataValue<int>(dr, "ClientId"),
                 OrderDate = GetDataValue<DateTime>(dr, "OrderDate"),
-                TotalPrice = GetDataValue<float>(dr, "TotalPrice"),
+                TotalPrice = GetDataValue<double>(dr, "TotalPrice"),
                 State = GetDataValue<string>(dr, "State"),
                 OrderNumber = GetDataValue<int>(dr, "OrderNumber"),
                 ItemCount = GetDataValue<int>(dr, "ItemCount"),

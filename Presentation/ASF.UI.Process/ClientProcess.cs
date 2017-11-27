@@ -25,14 +25,19 @@ namespace ASF.UI.Process
             return response.Result;
         }
 
-        public void Add(Client c)
+        public Client Add(Client c)
         {
-            HttpPost<Client>("rest/Client/Add", c, MediaType.Json);
+            return HttpPost<Client>("rest/Client/Add", c, MediaType.Json);
         }
 
         public Client Find(int id)
         {
             var response = HttpGet<FindResponse<Client>>("rest/Client/Find/" + id, new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
+        }
+
+        public Client FindByGuid(Guid guid) {
+            var response = HttpGet<FindResponse<Client>>("rest/Client/FindByGuid/" + guid, new Dictionary<string, object>(), MediaType.Json);
             return response.Result;
         }
 
@@ -44,6 +49,16 @@ namespace ASF.UI.Process
         public void Delete(int id)
         {
             HttpGet<FindResponse<Client>>("rest/Client/Remove/" + id, new Dictionary<string, object>(), MediaType.Json);
+        }
+
+        public Client FindByName(string name) {
+            var response = HttpGet<FindResponse<Client>>("rest/Client/FindByName/" + name, new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
+        }
+
+        public Client FindByUser(string aspNetUsers) {
+            var response = HttpGet<FindResponse<Client>>("rest/Client/FindByUser/" + aspNetUsers, new Dictionary<string, object>(), MediaType.Json);
+            return response.Result;
         }
     }
 }

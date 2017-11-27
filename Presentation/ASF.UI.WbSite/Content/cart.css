@@ -120,12 +120,13 @@ li {list-style-type: none;}
     height: 30px;
     border: 1px solid #9cebd5;
     border-radius: 8px 8px 0 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 #cart_detail_container {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 100px 0 0 0;
-    width: 700px;
+    width: 800px
 
 }
 
@@ -157,6 +158,8 @@ li {list-style-type: none;}
 .cart_item_info {
     float:right;
     padding: 40px 20px 0 0;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
 }
 
 #item_quantity {
@@ -204,4 +207,179 @@ span.angle:hover{
 
 span.total_price {
     margin: 0 0 0 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
 }
+
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0 20px 40px;
+  border-radius: 4px;
+      float: left;
+    clear: both;
+}
+
+.confirm {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #9cebd5;
+    cursor: pointer;
+    outline: none;
+    margin: 10px 0 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Padding - just for asthetics on Bootsnipp.com */
+body { margin-top:20px; }
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+.credit-card-box {
+    width: 800px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.subscribe {
+    background-color: #9cebd5;
+    border-color: #9cebd5;
+}
+
+button:hover {
+   background-color: #79b0a1;
+}
+
+.subscribe:hover {
+   background-color: #79b0a1;
+}
+
+.panel-default {
+    border-color: #9cebd5;
+}
+
+.form-control {
+    border-color: #9cebd5;
+}
+
+.confirmacion {
+      font-family: 'Raleway', sans-serif;
+      font-size: 30px;
+}
+
+img.confirm_img {
+    max-width: 60px;
+    max-height: 60px;
+    margin: 20px 20px 40px 20px;
+}
+
+#confirmation_container {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 700px
+
+}
+
+.confirmation_item_info {
+    float:right;
+    padding: 40px 20px 0 0;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.confirmation_item_info button {
+  margin: 0 10px 0 0;
+  display: inline-block;
+  height: 30px;
+  width: 80px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 9px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #9cebd5;
+  cursor: pointer;
+  outline: none;
+  margin: 10px 0 0 0;
+}
+
+#share {
+    float: left;
+    clear: both;
+}
+
+    #share.share_index {
+        margin: 20px 0 20px 40px;
+    }

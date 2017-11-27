@@ -10,25 +10,25 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/ASF.Business.dll">
-      <publishTime>11/13/2017 21:23:31</publishTime>
+      <publishTime>11/27/2017 15:27:45</publishTime>
     </File>
     <File Include="bin/ASF.Data.dll">
-      <publishTime>11/13/2017 21:23:31</publishTime>
+      <publishTime>11/27/2017 15:23:21</publishTime>
     </File>
     <File Include="bin/ASF.Entities.dll">
-      <publishTime>11/13/2017 19:43:12</publishTime>
+      <publishTime>11/27/2017 11:43:06</publishTime>
     </File>
     <File Include="bin/ASF.Hosts.Web.dll">
-      <publishTime>11/13/2017 21:23:36</publishTime>
+      <publishTime>11/27/2017 15:32:01</publishTime>
     </File>
     <File Include="bin/ASF.Services.Contracts.dll">
-      <publishTime>11/13/2017 20:25:30</publishTime>
+      <publishTime>11/27/2017 15:22:38</publishTime>
     </File>
     <File Include="bin/ASF.Services.dll">
-      <publishTime>11/13/2017 21:23:32</publishTime>
+      <publishTime>11/27/2017 15:31:59</publishTime>
     </File>
     <File Include="bin/ASF.Services.Http.dll">
-      <publishTime>11/13/2017 21:23:33</publishTime>
+      <publishTime>11/27/2017 15:32:00</publishTime>
     </File>
     <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
       <publishTime>10/16/2017 21:46:00</publishTime>
@@ -67,7 +67,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>10/23/2017 15:34:40</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>11/13/2017 21:23:37</publishTime>
+      <publishTime>11/27/2017 15:50:15</publishTime>
     </File>
   </ItemGroup>
 </Project>

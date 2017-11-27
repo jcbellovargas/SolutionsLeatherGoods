@@ -11,6 +11,8 @@ namespace ASF.UI.WbSite.Areas.Dealer.Controllers
 {
     public class DealerController : Controller
     {
+
+        private CategoryProcess category_process = new CategoryProcess();
         // GET: Dealer/Dealer
         public ActionResult Index()
         {
@@ -86,6 +88,11 @@ namespace ASF.UI.WbSite.Areas.Dealer.Controllers
             dealer.Id = ((ASF.Entities.Dealer)TempData["dealer"]).Id;
             dealer_process.Delete(dealer.Id);
             return RedirectToAction("Index");
+        }
+
+        public JsonResult GetCategories(string term) {
+            List<Entities.Category> dealers = category_process.GetByPattern(term);
+            return Json(dealers, JsonRequestBehavior.AllowGet);
         }
     }
 }
